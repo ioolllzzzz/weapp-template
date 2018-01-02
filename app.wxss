@@ -1,0 +1,12 @@
+/**app.wxss**/
+
+page {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.43;
+  background: linear-gradient(to bottom, #ffc700 0%, #fff 100%);
+}

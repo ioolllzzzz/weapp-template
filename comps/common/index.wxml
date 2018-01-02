@@ -1,0 +1,6 @@
+<!--comps/common/index.wxml-->
+
+<view class="toast {{_toast.show||''}}">
+  <text>{{_toast.text}}</text>
+</view>
+

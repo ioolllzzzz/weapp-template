@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/user/home/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc700",
+    "navigationBarTitleText": "weapp-template",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}

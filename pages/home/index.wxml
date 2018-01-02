@@ -1,0 +1,6 @@
+<!--pages/home/index.wxml-->
+<view>
+  <button bindtap='go'>go user home</button>
+  <button bindtap='tapToast'>toast test</button>
+</view>
+<include src='/comps/common/index' />
