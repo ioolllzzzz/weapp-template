@@ -29,7 +29,7 @@ const toastKey = 'toast',
     toast.hide.call(this)
   }
 
-module.exports = {
+export default {
   data: {
   },
   onLoad: function () {

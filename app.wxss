@@ -10,3 +10,6 @@ page {
   line-height: 1.43;
   background: linear-gradient(to bottom, #ffc700 0%, #fff 100%);
 }
+
+
+@import '/comps/common/index';

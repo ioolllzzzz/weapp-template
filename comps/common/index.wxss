@@ -1,24 +1,29 @@
 /* comps/common/index.wxss */
 
 .toast {
+  z-index: 19;
   position: fixed;
-  /* min-width: 80px;
-  max-width: 260px; */
-  top: 150%;
-  left: 50%;
-  padding: 20rpx 32rpx;
-  transform: translate(-50%);
-  transition: top 0.2s ease-in;
-  text-align: center;
+  bottom: -100vh;
+  left: 0;
+  width: 100%;
+  transition: bottom 0.2s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toast.show {
+  bottom: 28vh;
+}
+
+.toast view {
+  max-width: 70%;
+  padding: 16rpx 32rpx;
   word-break: break-word;
   border-radius: 6rpx;
   box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.6);
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   font-size: 32rpx;
-  line-height: 1.43;
-}
-
-.toast.show {
-  top: 70%;
+  line-height: 1.5;
 }
